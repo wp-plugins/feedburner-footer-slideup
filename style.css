@@ -1,0 +1,36 @@
+div#footerform{
+	background:#6699CC;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:46px;
+	border-top:3px solid #AE670A;
+	display:none;
+ }
+div#footerform form {
+	display:inline;
+}
+div#footerform .formInputfooter {
+	width:154px;
+	height:20px;
+	padding:4px 5px 0 25px;
+	margin:1px;
+	border:1px solid #aaa;
+	text-align:left;
+	color:#727272;	
+	vertical-align:middle;
+}
+div#footerform .formInputNamefooter {
+	background:url(images/name.png) no-repeat;
+}
+div#footerform .formInputEmailfooter {
+	background:url(images/mail.png) no-repeat;
+}
+div#footerform .formInputSubmitfooter {
+	height:26px;
+	vertical-align:middle;
+}
+div#footerform .tagline { font-size: 14px; font-weight: bold; font-family: arial; }
+div#footerform .close { float:right; margin:4px 8px 0px 0px; }
