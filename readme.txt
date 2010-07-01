@@ -9,7 +9,7 @@ Footer Slideup Form adds Feedburner Email Subscription form into the footer wher
 
 == Description ==
 
-Footer Slideup Form is one of the best ways to ask your user to subscribe to your list without any interruption or blocking and this plugin does exactly that. It adds an FeedBurner subscribe sliding form in the footer of your Wordpress blog. My personal preference has always been <A HREF="http://www.codeitwell.com/feedburner-vs-aweber.html">AWeber over Feedburner</A> for RSS to email subscriptions.
+Footer Slideup Form is one of the best ways to ask your user to subscribe to your list without any interruption or blocking and this plugin does exactly that. It adds an FeedBurner subscribe sliding form in the footer of your Wordpress blog. My personal preference is always <A HREF="http://www.codeitwell.com/feedburner-vs-aweber.html">AWeber over Feedburner</A> for RSS to email.
 
 == Installation ==
 
