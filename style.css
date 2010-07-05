@@ -8,6 +8,7 @@ div#footerform{
 	height:46px;
 	border-top:3px solid #AE670A;
 	display:none;
+	z-index: 10;
  }
 div#footerform form {
 	display:inline;
