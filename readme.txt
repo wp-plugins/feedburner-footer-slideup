@@ -37,10 +37,13 @@ Yes I will be more than happy to help. Just post them in comments on my <A href=
 
 == Changelog ==
 
+= 0.2 =
+* Fix for z-index issues with some themes.
+
 = 0.1 =
 * Basic Working Version of Feedburner Footer Slideup
 
 == Upgrade Notice ==
 
-= 0.1 =
-This is the initial version and so there is nothing to upgrade.
+= 0.2 =
+Just Replace the content of the plugins folder with the new content and re-activate the plugin.
