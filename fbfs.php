@@ -69,7 +69,7 @@ function fbfs_plugin_options() {
 <div class="wrap">
 <p>Footer Slideup Form is one of the best ways to ask your user to subscribe to your list without any interruption or blocking and this plugin does exactly that. It adds an FeedBurner subscribe sliding form in the footer of your Wordpress blog. My personal preference is always <A HREF="http://imtips.co/feedburner-vs-aweber.html">AWeber over Feedburner</A> for RSS to email.</p>
 <p>If you would like to give AWeber a try it is only $1 for the first month and if you do not like it they would even refund your $1. <A HREF="http://imtips.co/go/aweber1">Click here</A> (Aff Link) to visit AWeber with $1 as coupon</p>
-<p>For all your queries, help and support for plugin please post them in comments <A HREF="http://imtips.co/feedburner-footer-slideup/" target="_blank">at my blog</A>. I will be actively supporting the plugin.</p>
+<p>For all your queries, help and support for plugin please post them in comments <A HREF="http://imtips.co/feedburner-footer-slideup.html" target="_blank">at my blog</A>. I will be actively supporting the plugin.</p>
 <form method="post" action="options.php">
 <?php settings_fields( 'fbfs-settings-group' ); ?>
 <table class="form-table">
