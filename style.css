@@ -1,7 +1,10 @@
-div#footerform{ background:#6699CC; text-align:center; position:fixed; bottom:0; left:0; width:100%; height:46px; border-top:3px solid #AE670A; display:none; z-index: 10; }
-div#footerform form { display:inline; }
-div#footerform .formInputfooter { width:154px; height:20px; padding:4px 5px 0 25px; margin:1px; border:1px solid #aaa; text-align:left; color:#727272; vertical-align:middle; }
-div#footerform .formInputSubmitfooter { height:26px; vertical-align:middle; }
-div#footerform .tagline { font-size: 14px; font-weight: bold; font-family: arial; }
+div#footerform{background:#6699CC;text-align:center;position:fixed;bottom:0;left:0;width:100%;height:46px;border-top:3px solid #AE670A;display:none;z-index: 10;font-size:12px;}
+div#footerform img {position:fixed;left:0px;bottom:0px;}
+div#footerform form {display:inline;}
+div#footerform input {display:inline;}
+div#footerform a {border: medium none;color: black;font-family: Arial;font-size: 12px;text-decoration: none;}
+div#footerform .formInputfooter {width:154px;height:20px;padding:2px 5px 2px 25px;margin:1px;border:1px solid #aaa;text-align:left;color:#727272;	vertical-align:middle;}
+div#footerform .formInputSubmitfooter {height:26px;width:180px;vertical-align:middle;}
+div#footerform .tagline { font-size: 14px; font-weight: bold; font-family: arial; color:black;}
 div#footerform .close { float:right; margin:4px 8px 0px 0px; }
-div#footerform .formInputEmailfooter { background:url(images/mail.png) no-repeat; }
+div#footerform .formInputEmailfooter {background:url(images/mail.png) no-repeat;}
