@@ -4,7 +4,7 @@
 	Plugin URI: http://wordpress.org/extend/plugins/feedburner-footer-slideup/
 	Description: Footer Slideup Form is one of the best ways to ask your user to subscribe to your list without any interruption or blocking and this plugin does exactly that. It adds an FeedBurner subscribe sliding form in the footer of your Wordpress blog.
 	Author: Shabbir Bhimani
-	Version: 1.00
+	Version: 1.01
 	Author URI: http://imtips.co/
  */
 if ( ! defined( 'WP_CONTENT_URL' ) )
@@ -16,7 +16,7 @@ if ( ! defined( 'WP_PLUGIN_URL' ) )
 if ( ! defined( 'WP_PLUGIN_DIR' ) )
     define( 'WP_PLUGIN_DIR', WP_CONTENT_DIR . '/plugins' );
 if ( ! defined( 'PLUGIN_ABS_URL' ) )
-	define('PLUGIN_ABS_URL', WP_PLUGIN_URL . '/aweber-footer-slideup');
+	define('PLUGIN_ABS_URL', WP_PLUGIN_URL . '/feedburner-footer-slideup');
 
 function fbfs_js()
 {
