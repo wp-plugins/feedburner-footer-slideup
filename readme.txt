@@ -41,7 +41,7 @@ Yes I will be more than happy to help. Just post them in comments on my <A href=
 
 == Changelog ==
 
-1.00
+= 1.00 =
 * Default Text of form fields like Email and submit button.
 * Option to add CSS from the Plugin CSS file or copy the same into theme CSS File and exlude the plugin CSS file.
 * Option to Remove - Close for Now and Never Show Again links
