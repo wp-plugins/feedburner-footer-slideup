@@ -4,7 +4,7 @@
 	Plugin URI: http://wordpress.org/extend/plugins/feedburner-footer-slideup/
 	Description: Footer Slideup Form is one of the best ways to ask your user to subscribe to your list without any interruption or blocking and this plugin does exactly that. It adds an FeedBurner subscribe sliding form in the footer of your Wordpress blog.
 	Author: Shabbir Bhimani
-	Version: 1.05
+	Version: 1.06
 	Author URI: http://imtips.co/
  */
 if ( ! defined( 'WP_CONTENT_URL' ) )
@@ -60,7 +60,7 @@ if($fbfs_fburi =='') return;
 		<input type="submit" name="submit" class="formInputSubmitfooter" value="<?php $fbfs_def_submit=get_option('fbfs_def_submit'); if($fbfs_def_submit=='-')echo'';else if($fbfs_def_submit=='')echo 'Subscribe Now !!!' ; else echo $fbfs_def_submit;?>">
 	</form>
 </div>
-<?
+<?php
 }
 add_action ( 'wp_enqueue_scripts', 'fbfs_js');
 add_action ( 'wp_footer', 'fbfs_form');
@@ -160,6 +160,6 @@ If you are using frameworks like Thesis or Genesis you can add them to the custo
 </p>
 </form>
 </div>
-<?
+<?php
 }
 ?>
