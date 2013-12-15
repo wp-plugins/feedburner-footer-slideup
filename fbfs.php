@@ -4,7 +4,7 @@
 	Plugin URI: http://wordpress.org/extend/plugins/feedburner-footer-slideup/
 	Description: Footer Slideup Form is one of the best ways to ask your user to subscribe to your list without any interruption or blocking and this plugin does exactly that. It adds an FeedBurner subscribe sliding form in the footer of your Wordpress blog.
 	Author: Shabbir Bhimani
-	Version: 1.07
+	Version: 1.08
 	Author URI: http://imtips.co/
  */
 if ( ! defined( 'WP_CONTENT_URL' ) )
