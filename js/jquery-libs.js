@@ -10,7 +10,7 @@ $awfsjQuery(document).ready(function() {
 });
 
 $awfsjQuery(function() {
-  if($awfsjQuery.cookie('dont_show_footer_form') == null){
+  if($awfsjQuery.cookie('dont_show_footer_form') == null && $awfsjQuery(document).width() > 800){
     $awfsjQuery('#footerform').slideDown("slow");
   }
 });

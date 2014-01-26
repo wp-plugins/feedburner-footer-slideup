@@ -2,7 +2,7 @@
 Contributors: shabbirbhimani
 Tags: Feedburner, Footer Form, SlideUp
 Requires at least: 2.8
-Tested up to: 3.8
+Tested up to: 3.8.1
 Stable tag: trunk
 
 Footer Slideup Form adds Feedburner Email Subscription form into the footer where user's can subscribe to your RSS feed using email. 
@@ -40,6 +40,9 @@ Yes I will be more than happy to help. Just post them in comments on my <A href=
 1. How Feedburner Footer Slideup Looks. 
 
 == Changelog ==
+
+1.09
+* Responsive - The Slideup does not display if the user browser window is less than 800 px wide
 
 = 1.00 =
 * Default Text of form fields like Email and submit button.
