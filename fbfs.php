@@ -4,7 +4,7 @@
 	Plugin URI: http://wordpress.org/extend/plugins/feedburner-footer-slideup/
 	Description: Footer Slideup Form is one of the best ways to ask your user to subscribe to your list without any interruption or blocking and this plugin does exactly that. It adds an FeedBurner subscribe sliding form in the footer of your Wordpress blog.
 	Author: Shabbir Bhimani
-	Version: 1.09
+	Version: 1.10
 	Author URI: http://imtips.co/feedburner-footer-slideup.html
  */
 if ( ! defined( 'WP_CONTENT_URL' ) )
@@ -51,9 +51,8 @@ if($fbfs_fburi =='') return;
 	    <?php if(!get_option('fbfs_no_never_show')) : ?><div id="dontshowanymore"><a href="#" onclick="slidedown(); return false;">Never show again.</a></div><?php endif ?>
 	</div>
 
-	<div class="tagline"><?php $fbfs_tagline=get_option('fbfs_tagline'); echo $fbfs_tagline==''?'Subscribe By Email for Updates.':$fbfs_tagline; ?></div>
-
-	<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php echo $fbfs_fburi ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+	<div class="tagline"><?php $fbfs_tagline=get_option('fbfs_tagline'); echo $fbfs_tagline==''?'Subscribe By Email for Updates.':$fbfs_tagline; ?></div>
+	<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="slidedown();savePermCookie();window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php echo $fbfs_fburi ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
 		<input type="text" name="email" class="formInputfooter formInputEmailfooter" value="<?php $fbfs_def_email=get_option('fbfs_def_email'); echo $fbfs_def_email==''?'Enter Your Email':$fbfs_def_email; ?>" size="20" />
 		<input type="hidden" value="<?php echo $fbfs_fburi ?>" name="uri"/>
 		<input type="hidden" name="loc" value="en_US"/>
